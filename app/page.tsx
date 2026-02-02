@@ -1,3 +1,5 @@
+"use client"; // Next.js 클라이언트 컴포넌트 선언 (필수!)
+
 import React, { useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { 
